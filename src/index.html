@@ -1,0 +1,111 @@
+<!--Developed with Google Chrome-->
+<!--Tested in Google Chrome, Firefox-->
+<!--Should probably work for anyone else-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="jquery-3.2.0.js"></script>
+
+  <script src="main.js"></script>
+
+  <title id="title"></title>
+
+</head>
+<body>
+<div class="container">
+  <div class="text-center">
+    <strong id="name"></strong>
+  </div>
+
+  <br/>
+  <strong id="health"></strong>
+  <br/>
+  <strong id="prizeCounter"></strong>
+
+  <br/>
+
+  <div class="text-right">
+    <strong id="inventory">Your inventory</strong>
+    <br/>
+    <div id="prize-container">
+      <strong id="prizes"></strong>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="text-center">
+    <strong id="question"></strong>
+  </div>
+
+  <br/>
+
+  <div class="text-center">
+    <div id="buttons">
+      <button id="north" class="btn btn-primary click">North</button>
+      <br/>
+      <button id="west" class="btn btn-primary click">West</button>
+      <button id="south" class="btn btn-primary click">South</button>
+      <button id="east" class="btn btn-primary click">East</button>
+      <br/>
+    </div>
+    <span style="margin-top: 10px;">
+      <strong>You can also use the arrow keys to move!</strong>
+      <br/>
+      <strong>If nothing happens after killing all the monsters, try moving.</strong>
+    </span>
+    <br/>
+  </div>
+
+  <div id="map-container">
+    <div id="map" class="table"></div>
+  </div>
+  <div>
+    <strong id="location"></strong>
+    <br/>
+    <strong id="event"></strong>
+  </div>
+
+  <br/>
+
+  <span>
+    <strong id="fight-info"></strong>
+    <strong id="monster-info"></strong>
+    <br/>
+    <strong id="player-damage"></strong>
+    <br/>
+    <strong id="monster-damage"></strong>
+  </span>
+
+  <br/>
+
+  <div class="text-right">
+    <strong id="log">Log</strong>
+    <br/>
+    <span id="log-container">
+      <strong id="log-info"></strong>
+    </span>
+  </div>
+
+  <div>
+    <button id="ok1" class="btn btn-primary btn-sm">Ok</button>
+    <button id="ok2" class="btn btn-primary btn-sm">Ok</button>
+    <button id="yes" class="btn btn-primary btn-sm">Yes</button>
+    <button id="no" class="btn btn-primary btn-sm">No</button>
+    <button id="next1" class="btn btn-primary btn-sm">Next</button>
+    <button id="next2" class="btn btn-primary btn-sm">Next</button>
+    <button id="next3" class="btn btn-primary btn-sm">Next</button>
+  </div>
+
+  <audio autoplay src="music.mp3"></audio>
+</div>
+</body>
+</html>
