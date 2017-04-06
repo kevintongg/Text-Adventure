@@ -1,2 +1,2 @@
-# Text-Adventure
+# Text Adventure
 A game.
